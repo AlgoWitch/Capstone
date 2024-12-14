@@ -1,0 +1,118 @@
+.header{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.25px solid black;
+    padding-bottom: 15px;
+}
+.logo{
+    margin-left: 42px;
+    height: 48px;
+    width: auto;
+    font-size: 42px;
+    font-family: "Bebas Neue", sans-serif; 
+}
+.menu{
+
+    /* margin-top: 10px; */
+    display: flex;
+    width: 362px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu p{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+}
+.content-head{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.head{
+    text-align: center;
+    font-size: 120px;
+    
+    margin-bottom: 20px;
+    font-family: "Bebas Neue", sans-serif;
+  
+}
+.big{
+    display: flex;
+    justify-content: center;
+
+}
+.big img{
+    
+    border-radius: 56px;
+    border: 1px;
+    width: 1344px;
+    height: 672px;
+    
+
+}
+.content-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 76px;
+
+   
+    
+}
+.cards img{ 
+    width: 416px;
+    height: 277px;
+
+}
+.cards p{
+    margin: 1px;
+    font-family: "Roboto Mono", monospace;
+    
+}
+.H{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 380;
+    color:#000000;
+    ;
+
+}
+.D{
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+.cards{
+    padding-bottom: 48px ;
+}
+.email p{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+.email{
+    text-align: center;
+}
+.email input{
+    height: 48px;
+    width: 431px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.email button{
+    height: 48px;
+    width: 157px;
+    border-radius: 8px;
+    background-color: #000000;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px;
+}
